@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS curso (
+
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(255),
+    categoria VARCHAR(255),
+
+    PRIMARY KEY (id)
+
+) ENGINE=InnoDB;
