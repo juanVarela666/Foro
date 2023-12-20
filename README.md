@@ -54,6 +54,18 @@ la contraseña proporcionada se compara con la versión cifrada usando BCrypt pa
 -Generación y Uso del Token: Una vez que el usuario sé auténtica correctamente, se genera un token de autenticación. Debe incluirse en la cabecera de todas las solicitudes subsiguientes realizadas a nuestra API. 
 El token actúa como una forma de identificación y autorización, permitiendo que el usuario acceda a recursos protegidos de manera segura.
 
+## <img width="64" height="64" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>Requisitos para utilizar:
+- Java
+- MySQL
+- Postman/Insomnia
+
+## ⚙️ Configurando MySQL:
+
+- Creando la Base de Datos
+```sql
+CREATE DATABASE foro;
+```
+
 ## 💻 Tecnologías utilizadas:
 - Java
 - IntelIj
